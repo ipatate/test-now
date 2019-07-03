@@ -3,8 +3,8 @@
   "builds": [
     {
       "src": "example/package.json",
-      "use": "@now/static-build"
+      "use": "@now/static-build",
+      "config": {"distDir": "example"}
     }
-  ],
-  "routes": [{"src": "/", "dest": "example/index.html"}]
+  ]
 }
