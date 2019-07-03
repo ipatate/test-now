@@ -31,4 +31,5 @@ module.exports = {
     react: 'React',
     'react-dom': 'ReactDOM',
   },
+  plugins: [new CopyPlugin([{from: './index.html', to: 'index.html'}])],
 };
